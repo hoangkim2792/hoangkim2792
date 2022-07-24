@@ -310,6 +310,7 @@ width: 100%;
     width: 900px;
     min-height: 200px;
     position: relative;
+    animation: modalfadein ease 0.5s;
 }
 header.modal-header {
     background-color: #009688;
@@ -357,4 +358,15 @@ header.modal-header {
 }
 #footer{
 
+}
+@keyframes modalfadein {
+    from{
+        opacity: 0;
+    transform: translateY(-200px);
+    }
+
+    to{
+        opacity: 1;
+    transform: translateY();
+    }
 }
