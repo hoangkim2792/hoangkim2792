@@ -105,7 +105,7 @@
             </div>
             <!--contact section-->
            
-            <div class="content-section"></div>
+            <div class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row ">
@@ -135,42 +135,61 @@
                     </form>
 
                 </div>
-            </div>
+                </div>
         
-        <div id="footer"></div>
-    </div>
-    <div class="modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="ti-close">X</i>
+                    <div id="footer"></div>
+                    </div>
+                    <div class="modal">
+                    <div class="modal-container js-modal-container">
+                        <div class="modal-close js-modal-close">
+                            <i class="ti-close">X</i>
+                        </div>
+                        <header class="modal-header">
+                            <i class="ti-bag"></i>
+                            Tickets
+                        </header>
+                        <div class="modal-body">
+                            <label for="Ticket-quantity" class="modal-label">
+                                <i class="ti-shoping-cart"></i>
+                                Tickets, $15 per person
+                            </label>
+                            <input id="Ticket-quantity" type="text" class="modal-input" placeholder="How Many?">
+
+                            <label for="Ticket-email" class="modal-label">
+                                <i class="ti-user"></i>
+                                Send to
+                            </label>
+                            <input id="Ticket-email" type="email" class="modal-input" placeholder="Enter email...">
+
+                            <button id="by-ticket">
+                                Pay  <i class="ti-check"></i></button>
+                        </div>
+
+                        <footer class="modal-footer">
+                            <p class="modal-help">Need <a href="">Help?</a></p>
+            
+                    
             </div>
-            <header class="modal-header">
-                <i class="ti-bag"></i>
-                Tickets
-            </header>
-            <div class="modal-body">
-                <label for="Ticket-quantity" class="modal-label">
-                    <i class="ti-shoping-cart"></i>
-                    Tickets, $15 per person
-                </label>
-                <input id="Ticket-quantity" type="text" class="modal-input" placeholder="How Many?">
+    
 
-                <label for="Ticket-email" class="modal-label">
-                    <i class="ti-user"></i>
-                    Send to
-                </label>
-                <input id="Ticket-email" type="email" class="modal-input" placeholder="Enter email...">
-
-                <button id="by-ticket">
-                    Pay  <i class="ti-check"></i></button>
-            </div>
-
-            <footer class="modal-footer">
-                <p class="modal-help">Need <a href="">Help?</a></p>
             </footer>
         </div>
 
     </div>  
+    <div class="map-section"><img src="./img/map/map.jpeg" alt="map"></div>
+    <div class="footer">
+        <div class="socials-list">
+            <a href=""><i class="ti-facebook" >facebook</i></a>
+            <a href=""><i class="ti-instagram" ></i></a>
+            <a href=""><i class="ti-piteret" ></i></a>
+            <a href=""><i class="ti-twter" ></i></a>
+            <a href=""><i class="ti-" ></i></a>
+            <a href=""><i class="ti-" ></i></a>
+            <p class="coppyright">power by <a href="">Kim</a></p>
+
+        </div>
+    </div>
+
   
    <script>
     const BuyBtns = document.querySelectorAll('.js-buy-ticket')
