@@ -42,16 +42,16 @@
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <div class="member-list">
-                        <div class="menber-item">
+                    <div class="row member-list">
+                        <div class="col col-third text-center">
                             <p class="member-name">Name</p>
                             <img src="./img/band/member1.jpg" alt="Name" class="member-img">
                         </div>
-                        <div class="menber-item">
+                        <div class="col col-third text-center">
                             <p class="member-name">Name</p>
                             <img src="./img/band/member1.jpg" alt="Name" class="member-img">
                         </div>
-                        <div class="menber-item">
+                        <div class="col col-third text-center">
                             <p class="member-name">Name</p>
                             <img src="./img/band/member1.jpg" alt="Name" class="member-img">
                         </div>
@@ -71,8 +71,8 @@
                 
                     </ul>
                     <!--places-->
-                    <div class="places-lish">
-                        <div class="place-item">
+                    <div class="row places-lish">
+                        <div class="col col-third">
                             <img src="./img/plances/plance1.jpeg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -81,7 +81,7 @@
                                 <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./img/plances/plance2.jpeg" alt="Paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -90,7 +90,7 @@
                                 <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./img/plances/plance3.jpeg" alt="San Francisco" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -100,14 +100,42 @@
                             </div>
                         </div>
                     </div>
-                    <div class="clear"></div>
+              
                 </div>
             </div>
             <!--contact section-->
            
             <div class="content-section"></div>
-            <h2 class="section-heading">CONTACT</h2>
-            <p class="section-sub-heading">Fan? Drop a note!</p>
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row ">
+                <div class="col col-half text-center">
+                    <p><i class="ti-location-arrow"></i>Chicago.us</p>
+                    <p><i class="ti-mobile"></i>phone 132541654</p>
+                    <p><i class="ti-email"></i>Email: Email.con</p>
+
+                </div>
+                <div class="col col-half contact-info">
+                    <form action="">
+                        <div class="row contact-content">
+                            <div class="col col-half contact-form">
+                                <input type="text" name="" placeholder="Name" required id=""   class="form-control">
+                            </div>
+                            <div class="col col-half contact-form">
+                                <input type="email" name="" placeholder="Email" required id=""  class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input class=" col-full contact-form form-control" type="text" name="" placeholder="Message" required id=""  class="form-control">
+                            </div>
+
+                        </div>
+                        <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                    </form>
+
+                </div>
+            </div>
         
         <div id="footer"></div>
     </div>
